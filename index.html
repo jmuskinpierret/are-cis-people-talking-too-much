@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Are men talking too much?
+title: Are cis people talking too much about trans rights?
 ---
 
 
@@ -19,18 +19,18 @@ title: Are men talking too much?
 
             <div class="row-fluid" id="button-div">
               <div class="col-xs-6">
-                <a class="btn btn-lg btn-default" id="dude">a dude</a>
+                <a class="btn btn-lg btn-default" id="dude">not trans</a>
                 <p id="dude-display">00:00</p>
               </div>
               <div class="col-xs-6">
-                <a class="btn btn-lg btn-default" id="not-dude">not a dude</a>
+                <a class="btn btn-lg btn-default" id="not-dude">trans</a>
                 <p id="not-dude-display">00:00</p>
               </div>
             </div>
             <div class="clearfix"></div>
 
             <br/><br/><br/><br/><br/><br/><br/><br/><br/>
-            <p class="small"><a class="muted-link" href="https://github.com/cathydeng/are-men-talking-too-much">made with ♡ by Cathy Deng</a></p>
+            <p class="small"><a class="muted-link" href="https://github.com/cathydeng/are-men-talking-too-much">Based off Cathy Deng's original</a></p>
 
 
           </div>
@@ -77,7 +77,7 @@ title: Are men talking too much?
         var d_tot = dude_time.hours*3600+dude_time.minutes*60+dude_time.seconds
         var l_tot = lady_time.hours*3600+lady_time.minutes*60+lady_time.seconds
         var pct = parseInt(d_tot/(d_tot+l_tot)*100)
-        $('#ans').html('<span id="pct">'+pct+'</span>% men')
+        $('#ans').html('<span id="pct">'+pct+'</span>% not trans')
 
 
       };
